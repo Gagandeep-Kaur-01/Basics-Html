@@ -12,23 +12,24 @@ a:link {
   color: white;
   background-color: black;
   text-decoration: none;
-   target:blank;
+
 }
 a:visited {
   color: pink;
   background-color: transparent;
   text-decoration: none;
- 
-}
+ }
 a:hover {
-  color: red;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
-   target:blank;
 }
 a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
-   target:blank;
+}
+button {
+
+font-size: 50px;	
 }
