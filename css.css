@@ -3,11 +3,32 @@ ul{
   font-family: sans-serif;
 }
 h2  {
-border: 5px solid powderblue;
+border: 5px solid dodgerblue;
 padding: 3px;
 margin: 20px;
+background-color: white;
 }
-#p01 {
-  color: blue;
+a:link {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+   target:blank;
 }
-
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+ 
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+   target:blank;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+   target:blank;
+}
