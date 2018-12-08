@@ -4,9 +4,15 @@ ul{
 }
 h2  {
 border: 5px solid dodgerblue;
-padding: 3px;
-margin: 20px;
-background-color: white;
+/*border-style:dashed; */
+padding: 10px;
+margin: 20px 30px 40px 50px;
+background-color: lightgrey;
+ outline: 1px solid red;
+  outline-offset: 15px;
+   /* text-decoration: overline;   */
+    text-transform: uppercase;
+	 text-shadow: 3px 2px red;
 }
 a:link {
   color: white;
