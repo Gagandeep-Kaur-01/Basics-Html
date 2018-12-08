@@ -13,6 +13,7 @@ background-color: lightgrey;
    /* text-decoration: overline;   */
     text-transform: uppercase;
 	 text-shadow: 3px 2px red;
+	 font-weight: bold;
 }
 a:link {
   color: white;
