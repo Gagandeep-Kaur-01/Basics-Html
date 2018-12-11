@@ -34,22 +34,20 @@ background-color: yellow;
  }
 
 h2  {
-<<<<<<< HEAD
 	/*position: fixed; 
 	bottom:0;
 	right:0;
 	width:300px;*/
 	left:300px;
 	border: 5px solid dodgerblue;
-max-width: 600px;
+/*max-width: 680px;
 padding: 3px;
-margin: 20px;
+/*margin: 50px;
 background-color: white;
-=======
 border: 5px solid dodgerblue;
 /*border-style:dashed; */
 padding: 10px;
-margin: 20px 30px 40px 50px;
+margin: 20px 50px 60px 50px;
 background-color: lightgrey;
  outline: 1px solid red;
   outline-offset: 15px;
@@ -57,7 +55,7 @@ background-color: lightgrey;
     text-transform: uppercase;
 	 text-shadow: 3px 2px red;
 	 font-weight: bold;
->>>>>>> bc023a518066ef3d18fca4b2374a3417737709e7
+
 }
 /*img {
 	float: right;
