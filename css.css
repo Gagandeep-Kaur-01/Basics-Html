@@ -39,4 +39,7 @@ a:active {
 button {
 
 font-size: 30px;	
+color: green;
+ cursor:pointer;  
+  background:lightblue;
 }
