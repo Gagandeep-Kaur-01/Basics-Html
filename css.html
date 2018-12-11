@@ -19,31 +19,71 @@
 	   }
 	p.add{
             color: slateblue;   
-            font-size: 30px; 			
+            font-size: 30px; 				
 			   }	
+		
+     
+                              * {	
+                               box-sizing: border-box;
+                                }
+                              .img-container { 
+                               float:left;
+                               width: 33.33%;
+                               padding: 5px;
+                                }
+                               .clearfix:: after {
+                                  content: "";
+                               clear: both;
+                             display: table;
+                                    }		   
 	</style>
 	</head>  
 	
  <body>
+ 
  <h1>Beauty of Nature<h1>
+ <ul>
+ <li><a href= "#home"
+ class="active"> Home</a></li>
+ <li><a href= "#news"> News</a></li>
+ <li><a href= "#contact"
+ class="active"> Contact</a></li>
+ <li><a href= "#about"
+ class="active"> About</a></li>
+  </ul>
 <blockquote> Just living is not enough... Adopt the peaceace of nature: her secret is patience. Wherever you go, no matter what the weather, always bring your own sunshine. </blockquote>
+<!--<img src="images/3.jpg"> --> 
 <h2> Some Quotations on <i><q>Beauty of Nature</q></i></h2>
-    <ul>
+    <ol>
     <li> <i><b>Look deep into nature, and then you will understand everything better        - Albert Einstein </b></i></li>
 	<br>
 	<li><i><b>One touch of nature makes the whole world kin       - William Shakespeare</b></i></li>
 	<br>
 	<li><i><b>Those who find beauty in all of nature will find themselves at one with the secrets of life itself          -L. Wolfe Gilbert </b></i></li>
 	<br>
-    </ul>
+    </ol>
 <p> In every walk in with nature one receives far more than he seeks. The day, water, sun, moon, night - I do not have to purchase these things with money. 
 Looking at beauty in the world, is the first step of purifying the mind. </p>
 <p class="add"> <q><b>Nature always wears the colors of spirit</b></q></p>
+                                   
 	<a href="https://www.google.co.in/search?q=thoughts+on+beauty+of+nature&rlz=1C1ASUM_enIN813IN813&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiMi67d8YzfAhWJwI8KHfnrA0QQ_AUIDigB&biw=1920&bih=938" target="_blank">
 	Thoughts on Beauty of Nature ~ link</a>
 	<br><br><br>
 	<a href="Ist page.html"
 	<button>Click  </button>
 	</a>
+	                                <div class="clearfix">
+                                    <div class="img-container">
+								<!--	style="background-color:#bbb">
+									<p>Some text inside the box.</p>  -->
+									<img src="images/3.jpg" style="width:120% height= 20%">
+									</div>
+									<div class="img-container">
+									<img src="images/5.jpg" style="width:120% height= 20%">
+									</div>
+									<div class="img-container">
+								<img src="images/8.jpg" style="width:120% height= 20%">
+								</div>
+								</div>
  </body>  
  </html>	
