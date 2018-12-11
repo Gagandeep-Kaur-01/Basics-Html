@@ -34,6 +34,7 @@ background-color: yellow;
  }
 
 h2  {
+<<<<<<< HEAD
 	/*position: fixed; 
 	bottom:0;
 	right:0;
@@ -44,6 +45,19 @@ max-width: 600px;
 padding: 3px;
 margin: 20px;
 background-color: white;
+=======
+border: 5px solid dodgerblue;
+/*border-style:dashed; */
+padding: 10px;
+margin: 20px 30px 40px 50px;
+background-color: lightgrey;
+ outline: 1px solid red;
+  outline-offset: 15px;
+   /* text-decoration: overline;   */
+    text-transform: uppercase;
+	 text-shadow: 3px 2px red;
+	 font-weight: bold;
+>>>>>>> bc023a518066ef3d18fca4b2374a3417737709e7
 }
 /*img {
 	float: right;
@@ -78,5 +92,8 @@ a:active {
 }
 button {
 
-font-size: 50px;	
+font-size: 30px;	
+color: green;
+ cursor:pointer;  
+  background:lightblue;
 }
