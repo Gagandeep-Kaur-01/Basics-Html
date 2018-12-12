@@ -1,17 +1,26 @@
 
 button {
+margin-top: 0px;
 font-size: 30px;	
 color: green;
 cursor:pointer;  
 background:lightblue;
-float: center;
+float: left;
 position: relative;
 left:30
-top: 50;
+top: 0;
 width: 50;
 height: 5;	
 }
-
+button:hover {
+  background-color: royalblue;
+  color: purple;
+  }
+ button:active {
+  background-color: green;
+  color:black;
+ }
+ 
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -52,4 +61,10 @@ height: 5;
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.d {	
+  margin-left: 80px;
+color:red;
+
 }
