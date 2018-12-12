@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
    <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="10">
    <link rel="stylesheet" href="website.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <title> Webpage </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="10">
+
 <style>
+body {margin:0;}
 .header {
  position: fixed;
     left: 0;
@@ -16,8 +18,9 @@
 	height:8%;
    	 text-align: center;
 	 font size=5;
-  background-color: slateblue;
-  padding: 0px;
+  background-color: yellow;
+  z-index:-1;
+padding: 0px;
   margin:0px;
 
 }
@@ -41,6 +44,15 @@ input[type=text] {
   border: 2px solid blue;
   border-radius: 4px;
 }      
+input [type=password] {
+ width: 50%;
+  padding: 10px 5px;
+  margin: 8px 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
    * {
     box-sizing: border-box;
     }
@@ -49,7 +61,6 @@ input[type=text] {
   width: 33.33%;
   padding: 15px;
 }
-
 
 .row:after {
   content: "";
@@ -62,7 +73,7 @@ input[type=text] {
     width: 100%;
   }
 .btn {
-  background-color: DodgerBlue;
+  background-color: green;
   border: none;
   top:20;
   color: white;
@@ -73,23 +84,44 @@ input[type=text] {
 .btn:hover {
   background-color: RoyalBlue;
 }
+
+.acc{
+color:blue;
+font-size: 16px;
+}
+icon-bar{
+width:100%;
+background-color:yellow;
+overflow:auto;
+}
+.icon-bar a{
+float: left;
+width:50%;
+padding:12px 10px;
+transition: all 0.3s ease;
+color:white; 
+font-size:36px;
+}
+.icon-bar a:hover {
+background-color: pink;
+}
+.active {
+background-color: red;
+}
 </style>
    </head>
-   
-   
+    
 <body>
 	<div class="header">
 	<h1>My Webpage</h1>
 	</div>
-	
- <ul>
- <li><button class="btn"><i class="fa fa-home"></i> </button></li>
-<li><button class="btn"><i class="fa fa-bars"></i> </button></li>
-<li><button class="btn"><i class="fa fa-trash"></i> </button></li>
-<li><button class="btn"><i class="fa fa-folder"></i> </button></li>
-<li><button class="btn"><i class="fa fa-close"></i> </button></li>
-</ul>
-							
+	<div class="icon-bar">
+	<a href="#" class="fa fa-home"></a>
+	<a href="#" class="fa fa-search"></a>
+	<a href="#" class="fa fa-globe"></a>
+	<a href="#" class="fa fa-envelope" ></a>
+	<a href="#"><i class="fa fa-trash"></i></a>
+	</div>			
 
 <div class="row">
   <div class="column">
@@ -101,21 +133,15 @@ input[type=text] {
   </div>
   
                                         <div class="column">
-                                       <h2 class="welcome"><i><b>Welcome to Login</b></i></h2>
+                                       <p class="acc"><i><b>Have Registered ? Login your account</b></i></p>
                                                   <form>
-                                                  <label for="fname">First Name :     </label>
+                                                  <label for="fname">User Name :     </label>
                                                   <input type="text" id="fname" name="fname" placeholder="Type your First Name">   <br>
-										<label for="lname">Last Name :    </label>    
-                                        <input type="text" id="lname" name="lastname" placeholder="Your last name">    <br>
-                                                 <label for="country">Country :</label>
-                                                 <select id="country" name="country">
-                                                  <option value="india">India</option>
-                                              <option value="america">America</option>
-                                              <option value="england">England</option>
-											   <option value="england">Australia</option>
-											    <option value="newzealand">Newzealand</option>
-                                                     </select>
-													  </form>	
+										<label for="lname">Email-id :    </label>    
+                                        <input type="text" id="lname" name="lastname">    <br>
+										<label for="pass"> Password : </label>
+										<input type="password" id="pass" name="pass">   <br>
+                                             </form>	
 											<br><br><br>
 	                              <a href="css.html" target="_blank" title= "Click to go to another page">
 	                              <button>Login</button>
